@@ -1,0 +1,31 @@
+<svg role="img" aria-label="Logo AksaNet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <title>AksaNet - O seu provedor de velocidade</title>
+
+  <!-- Círculo colorido segmentado (igual ao SixSilvas) -->
+  <g id="circle">
+    <path d="M 40 20 A 20 20 0 0 1 60 10" fill="none" stroke="#F2C94C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 60 10 A 20 20 0 0 1 60 30" fill="none" stroke="#2E8B57" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 20 20 A 20 20 0 0 0 20 40" fill="none" stroke="#F2994A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 20 40 A 20 20 0 0 0 40 50" fill="none" stroke="#1F5D8F" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Letra A com conexões de rede -->
+  <g id="a-letter" fill="#0B3558">
+    <circle cx="35" cy="25" r="2"/>
+    <circle cx="40" cy="30" r="2"/>
+    <circle cx="45" cy="25" r="2"/>
+    <line x1="35" y1="25" x2="40" y2="30" stroke="#0B3558" stroke-width="1.5"/>
+    <line x1="40" y1="30" x2="45" y2="25" stroke="#0B3558" stroke-width="1.5"/>
+    <line x1="40" y1="30" x2="50" y2="30" stroke="#0B3558" stroke-width="1.5"/>
+  </g>
+
+  <!-- Texto AksaNet -->
+  <text x="75" y="40" font-family="Poppins, sans-serif" font-size="32" font-weight="700" fill="#0B3558">
+    AksaNet
+  </text>
+
+  <!-- Tagline -->
+  <text x="75" y="57" font-family="Inter, sans-serif" font-size="10" font-weight="400" fill="#4F4F4F" letter-spacing="0.3">
+    O SEU PROVEDOR DE VELOCIDADE
+  </text>
+</svg>

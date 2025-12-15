@@ -109,6 +109,96 @@
   transform: rotate(20deg) scale(1.1);
 }
 
+/* === LOGOS === */
+/* Componente reutilizável para logotipos da empresa */
+.company-logo {
+  height: 50px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Logo no header */
+.logo .company-logo {
+  height: 50px;
+}
+
+/* Logo no footer */
+.footer-logo {
+  height: 60px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Logos de produtos */
+.product-logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Ícones de redes sociais */
+.social-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Variantes de contexto (usar via classes adicionais) */
+.logo-white {
+  /* Para fundos escuros - usa versão branca do logo */
+  filter: brightness(1);
+}
+
+.logo-black {
+  /* Para fundos claros - usa versão preta do logo */
+  filter: brightness(0);
+}
+
+/* Ajustes responsivos para logos */
+@media (max-width: 768px) {
+  .company-logo,
+  .logo .company-logo {
+    height: 40px;
+    max-width: 220px;
+  }
+
+  .footer-logo {
+    height: 50px;
+    max-width: 220px;
+  }
+
+  .product-logo {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-logo,
+  .logo .company-logo {
+    height: 35px;
+    max-width: 180px;
+  }
+
+  .footer-logo {
+    height: 45px;
+    max-width: 200px;
+  }
+
+  .product-logo {
+    max-width: 160px;
+  }
+}
+
 /* === BUTTONS === */
 .btn {
   display: inline-flex;

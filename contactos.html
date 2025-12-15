@@ -14,7 +14,9 @@
 <body>
   <header class="header">
     <div class="container header-container">
-      <a href="index.html" class="logo">SixSilvas<span style="color: var(--color-secondary-green);">.</span></a>
+      <a href="index.html" class="logo" aria-label="SixSilvas - Página Inicial">
+        <img src="assets/logos/sixsilvas-logo-white.svg" alt="SixSilvas" class="company-logo" />
+      </a>
       <nav>
         <ul class="nav-menu">
           <li><a href="index.html" class="nav-link">Home</a></li>
@@ -62,39 +64,71 @@
             </div>
           </div>
 
+          <!-- Contactos por Sector -->
+          <h3 style="font-size: var(--font-size-xl); color: var(--text-primary); margin-bottom: var(--spacing-lg); margin-top: var(--spacing-xl);">
+            Contactos por Sector
+          </h3>
+
+          <!-- Farmácia -->
           <div class="card" style="margin-bottom: var(--spacing-lg);">
             <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
-              <div style="width: 50px; height: 50px; background: var(--gradient-secondary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
-                📧
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #1F9D8F 0%, #56CCF2 100%); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                💊
               </div>
-              <div>
-                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Email</h3>
-                <p class="card-description" style="margin: 0;">
-                  <a href="mailto:info@sixsilvas.ao" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">
-                    info@sixsilvas.ao
-                  </a><br>
-                  <small style="color: var(--text-secondary);">Respondemos em até 24 horas</small>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Farmácia</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  📞 <a href="tel:+244973245534" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">+244 973 245 534</a><br>
+                  📧 <a href="mailto:farmacias@sixsilvas.com" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">farmacias@sixsilvas.com</a>
                 </p>
               </div>
             </div>
           </div>
 
+          <!-- Loja -->
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                🖥️
+              </div>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Loja de Material Informático</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  📞 <a href="tel:+244973245535" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">+244 973 245 535</a><br>
+                  📧 <a href="mailto:loja@sixsilvas.com" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">loja@sixsilvas.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- AksaNet -->
           <div class="card" style="margin-bottom: var(--spacing-lg);" id="whatsapp">
             <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
-              <div style="width: 50px; height: 50px; background: var(--gradient-accent); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
-                💬
+              <div style="width: 50px; height: 50px; background: var(--gradient-cta); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                📡
               </div>
-              <div>
-                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">WhatsApp</h3>
-                <p class="card-description" style="margin-bottom: var(--spacing-md);">
-                  <a href="https://wa.me/244XXXXXXXXX" target="_blank" style="color: var(--color-secondary-green); font-weight: var(--font-weight-semibold);">
-                    +244 XXX XXX XXX
-                  </a><br>
-                  <small style="color: var(--text-secondary);">Chat direto com nossa equipa</small>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">AksaNet (Provedor de Internet)</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  📞 <a href="tel:+244973245535" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">+244 973 245 535</a><br>
+                  📧 <a href="mailto:aksanet@sixsilvas.com" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">aksanet@sixsilvas.com</a>
                 </p>
-                <a href="https://wa.me/244XXXXXXXXX" target="_blank" class="btn btn-secondary btn-sm">
-                  Abrir WhatsApp
-                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sector Administrativo -->
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-innovation); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                🏢
+              </div>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Sector Administrativo</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  📞 <a href="tel:+244936981501" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">+244 936 981 501</a><br>
+                  📧 <a href="mailto:geral@sixsilvas.com" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">geral@sixsilvas.com</a>
+                </p>
               </div>
             </div>
           </div>
@@ -110,6 +144,51 @@
                   <strong>Segunda a Sexta:</strong> 08:00 - 18:00<br>
                   <strong>Sábado:</strong> 09:00 - 13:00<br>
                   <small style="color: var(--text-secondary);">Horário de Luanda (WAT - UTC+1)</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Escritórios / Localizações -->
+          <h3 style="font-size: var(--font-size-xl); color: var(--text-primary); margin-bottom: var(--spacing-lg); margin-top: var(--spacing-xl);">
+            Nossos Escritórios
+          </h3>
+
+          <!-- Luanda -->
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                📍
+              </div>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Luanda</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  <strong>Escritório:</strong><br>
+                  Talatona, Rua da Ifal, Cambamba II
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Malanje -->
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-secondary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                📍
+              </div>
+              <div style="flex: 1;">
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Malanje</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  <strong>Escritório:</strong><br>
+                  Estrada Direita da Guiné, Quéssua, Ritondo da base zona 4
+                </p>
+                <p class="card-description" style="margin-bottom: var(--spacing-sm);">
+                  <strong>Loja:</strong><br>
+                  Rua Antonio Jose de Almeida, Bairro Azul, cidade Centro
+                </p>
+                <p class="card-description" style="margin: 0;">
+                  <strong>Farmácia:</strong><br>
+                  Estrada Direita da Guiné, Quéssua, Ritondo da base zona 4
                 </p>
               </div>
             </div>
@@ -292,18 +371,23 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-column">
-          <h3>SixSilvas</h3>
-          <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-md);">
-            Comércio, Serviços & Tecnologias
-          </p>
+          <img src="assets/logos/sixsilvas-logo-white.svg" alt="SixSilvas" class="footer-logo" />
           <p style="color: rgba(255,255,255,0.7); font-size: var(--font-size-sm);">
             Transformando ideias em soluções tecnológicas que impulsionam negócios em Angola e além.
           </p>
           <div class="social-links">
-            <a href="#" class="social-link" aria-label="Facebook">📘</a>
-            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
-            <a href="#" class="social-link" aria-label="Instagram">📷</a>
-            <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+            <a href="https://facebook.com/sixsilvas" class="social-link" aria-label="Siga-nos no Facebook" target="_blank" rel="noopener noreferrer">
+              <img src="assets/logos/social/facebook.svg" alt="" class="social-icon" />
+            </a>
+            <a href="https://tiktok.com/@sixsilvas" class="social-link" aria-label="Siga-nos no TikTok" target="_blank" rel="noopener noreferrer">
+              <img src="assets/logos/social/tiktok.svg" alt="" class="social-icon" />
+            </a>
+            <a href="https://instagram.com/sixsilvas" class="social-link" aria-label="Siga-nos no Instagram" target="_blank" rel="noopener noreferrer">
+              <img src="assets/logos/social/instagram.svg" alt="" class="social-icon" />
+            </a>
+            <a href="https://linkedin.com/company/sixsilvas" class="social-link" aria-label="Conecte-se no LinkedIn" target="_blank" rel="noopener noreferrer">
+              <img src="assets/logos/social/linkedin.svg" alt="" class="social-icon" />
+            </a>
           </div>
         </div>
 
