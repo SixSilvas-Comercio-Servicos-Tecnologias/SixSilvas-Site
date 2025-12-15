@@ -9,12 +9,85 @@ class SixSilvasApp {
   }
 
   init() {
+    this.applySiteConfig();
     this.setupMobileMenu();
     this.setupScrollEffects();
     this.setupAnimations();
     this.setupForms();
     this.setupActiveLinks();
     this.setupSmoothScroll();
+  }
+
+  // === DADOS INSTITUCIONAIS === //
+  applySiteConfig() {
+    if (typeof window.siteConfig === 'undefined') return;
+
+    this.updateFooterContact();
+    this.updateWhatsAppCTA();
+    this.updateProductStatuses();
+  }
+
+  updateFooterContact() {
+    const config = window.siteConfig;
+    const contactBlocks = document.querySelectorAll('[data-footer-contact]');
+
+    contactBlocks.forEach((block) => {
+      block.innerHTML = `
+        <p class="footer-contact-line">📍 Luanda: ${config.locations.luanda.office}</p>
+        <p class="footer-contact-line">📍 Malanje: Escritório ${config.locations.malanje.office}</p>
+        <p class="footer-contact-line">🏬 Loja Malanje: ${config.locations.malanje.store}</p>
+        <p class="footer-contact-line">💊 Farmácia Malanje: ${config.locations.malanje.pharmacy}</p>
+        <p class="footer-contact-line">📧 <a href="mailto:${config.contacts.email}">${config.contacts.email}</a></p>
+        <p class="footer-contact-line">📱 <a href="tel:${config.contacts.phone}">${config.contacts.phone}</a></p>
+        <p class="footer-contact-line">🕐 Seg-Sex: ${config.contacts.schedule}</p>
+      `;
+    });
+  }
+
+  updateWhatsAppCTA() {
+    const whatsappLinks = document.querySelectorAll('[data-whatsapp-cta]');
+    const whatsappNumber = window.siteConfig.contacts.sectors.loja.phone;
+    const whatsappLink = window.siteConfig.contacts.sectors.loja.whatsapp;
+
+    whatsappLinks.forEach((link) => {
+      link.href = whatsappLink;
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+      if (!link.textContent.trim()) {
+        link.textContent = `WhatsApp ${whatsappNumber}`;
+      }
+    });
+  }
+
+  updateProductStatuses() {
+    const products = window.siteConfig.products;
+
+    document.querySelectorAll('[data-product-key]').forEach((card) => {
+      const key = card.getAttribute('data-product-key');
+      const product = products[key];
+
+      if (!product) return;
+
+      const badge = card.querySelector('[data-product-badge]');
+      if (badge) {
+        badge.textContent = product.status;
+        const statusClass = product.badgeClass || this.getStatusBadgeClass(product.status);
+        const baseClasses = Array.from(badge.classList).filter(cls => !cls.startsWith('badge-'));
+        badge.className = `${baseClasses.join(' ')} ${statusClass}`.trim();
+      }
+
+      const clientAreaLink = card.querySelector('[data-client-area]');
+      if (clientAreaLink && product.clientArea) {
+        clientAreaLink.href = product.clientArea;
+      }
+    });
+  }
+
+  getStatusBadgeClass(status) {
+    const normalized = status.toLowerCase();
+    if (normalized.includes('ativo') || normalized.includes('dispon')) return 'badge-success';
+    if (normalized.includes('desenvol')) return 'badge-warning';
+    return 'badge-info';
   }
 
   // === MENU MOBILE === //

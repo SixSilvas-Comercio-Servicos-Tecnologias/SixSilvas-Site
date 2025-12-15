@@ -248,9 +248,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 **SixSilvas - Comércio, Serviços & Tecnologias**
 
 - 📍 Luanda, Angola
-- 📧 info@sixsilvas.ao
-- 📱 +244 XXX XXX XXX
-- 🌐 [www.sixsilvas.ao](https://www.sixsilvas.ao)
+- 📧 info@sixsilvas.com
+- 📱 +244 936 981 501
+- 🌐 [www.sixsilvas.com](https://www.sixsilvas.com)
 
 ## 🙏 Agradecimentos
 

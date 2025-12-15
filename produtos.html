@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Conheça os produtos SixSilvas: 6SAcademy, Minha Farmácia Online e Soluções ISP. Tecnologia que resolve problemas reais.">
+  <meta name="description" content="Conheça os produtos SixSilvas: 6SAcademy, Minha Farmácia Online e AksaNet. Tecnologia que resolve problemas reais.">
   <title>Produtos - SixSilvas</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>6</text></svg>">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -39,11 +39,11 @@
     </div>
   </section>
 
-  <section class="section" id="6sacademy">
+  <section class="section" id="6sacademy" data-product-key="6sacademy">
     <div class="container">
       <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
         <div>
-          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);">Em Desenvolvimento</span>
+          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);" data-product-badge>Em desenvolvimento</span>
           <img src="assets/logos/sixacademy-logo.svg" alt="SixAcademy" class="product-logo" style="margin-bottom: var(--spacing-lg);" />
           <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">6SAcademy</h2>
           <p style="font-size: var(--font-size-xl); color: var(--color-primary-medium); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
@@ -99,7 +99,7 @@
     </div>
   </section>
 
-  <section class="section" style="background: var(--bg-secondary);" id="mfo">
+  <section class="section" style="background: var(--bg-secondary);" id="mfo" data-product-key="mfo">
     <div class="container">
       <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
         <div class="card" style="padding: var(--spacing-2xl); order: 2;">
@@ -120,7 +120,7 @@
           </ul>
         </div>
         <div style="order: 1;">
-          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);">Em Desenvolvimento</span>
+          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);" data-product-badge>Em desenvolvimento</span>
           <img src="assets/logos/mfo-logo.svg" alt="MinhaFarmaciaOnline" class="product-logo" style="margin-bottom: var(--spacing-lg);" />
           <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Minha Farmácia Online</h2>
           <p style="font-size: var(--font-size-xl); color: var(--color-secondary-green); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
@@ -165,11 +165,11 @@
   </section>
 
   <!-- AKSANET -->
-  <section class="section" id="aksanet">
+  <section class="section" id="aksanet" data-product-key="aksanet">
     <div class="container">
       <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
         <div>
-          <span class="badge badge-success" style="margin-bottom: var(--spacing-md);">Disponível</span>
+          <span class="badge badge-success" style="margin-bottom: var(--spacing-md);" data-product-badge>Ativo</span>
           <img src="assets/logos/aksanet-logo.svg" alt="AksaNet" class="product-logo" style="margin-bottom: var(--spacing-lg);" />
           <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">AksaNet</h2>
           <p style="font-size: var(--font-size-xl); color: var(--color-primary-medium); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
@@ -180,7 +180,7 @@
           </p>
           <div style="display: flex; gap: var(--spacing-md); margin-bottom: var(--spacing-xl); flex-wrap: wrap;">
             <a href="contactos.html" class="btn btn-primary btn-lg">Contratar Plano</a>
-            <a href="https://aksanet.sixsilvas.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">Área do Cliente</a>
+            <a href="https://aksanet.sixsilvas.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" data-client-area>Área do Cliente</a>
           </div>
         </div>
         <div class="card" style="padding: var(--spacing-2xl);">
@@ -215,60 +215,6 @@
           <div style="font-size: var(--font-size-5xl); margin-bottom: var(--spacing-md);">💰</div>
           <h4 class="card-title">Melhor Custo-Benefício</h4>
           <p class="card-description">Planos acessíveis sem compromisso de fidelidade</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" style="background: var(--bg-secondary);" id="isp">
-    <div class="container">
-      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
-        <div>
-          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);">Em Piloto</span>
-          <div style="width: 100px; height: 100px; background: var(--gradient-accent); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-5xl); margin-bottom: var(--spacing-lg);">📡</div>
-          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Soluções ISP/Hotspot</h2>
-          <p style="font-size: var(--font-size-xl); color: var(--color-secondary-orange); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
-            Sistema de Gestão para Provedores de Internet
-          </p>
-          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
-            Plataforma completa para ISPs gerenciarem clientes, autenticação, faturação e monitoramento de rede.
-          </p>
-          <div class="tech-stack" style="margin-bottom: var(--spacing-xl);">
-            <span class="tech-tag">MikroTik</span>
-            <span class="tech-tag">PHP</span>
-            <span class="tech-tag">MySQL</span>
-            <span class="tech-tag">RADIUS</span>
-          </div>
-          <a href="contactos.html" class="btn btn-primary btn-lg">Manifestar Interesse</a>
-        </div>
-        <div class="card" style="padding: var(--spacing-2xl);">
-          <h3 class="card-title">Funcionalidades Principais</h3>
-          <ul style="color: var(--text-secondary); line-height: 2;">
-            <li><strong>👥 Gestão de Clientes</strong> - CRM completo para ISP</li>
-            <li><strong>🔐 Autenticação RADIUS</strong> - PPPoE, Hotspot, Static</li>
-            <li><strong>📊 Controle de Banda</strong> - Gestão de velocidades</li>
-            <li><strong>💰 Faturação Automática</strong> - Mensalidades e planos</li>
-            <li><strong>🌐 Portal Cativo</strong> - Login personalizado</li>
-            <li><strong>📈 Monitoramento</strong> - Traffic graphs e uptime</li>
-            <li><strong>💳 Pagamentos Online</strong> - Integração com gateways</li>
-            <li><strong>📱 Portal do Cliente</strong> - Self-service</li>
-            <li><strong>🎫 Sistema de Tickets</strong> - Suporte técnico</li>
-            <li><strong>📡 Multi-POP</strong> - Gestão de múltiplos POPs</li>
-            <li><strong>📋 Relatórios</strong> - Análises detalhadas</li>
-            <li><strong>⚠️ Alertas</strong> - Notificações automáticas</li>
-          </ul>
-        </div>
-      </div>
-
-      <div style="background: var(--bg-card); border-radius: var(--border-radius-xl); padding: var(--spacing-2xl); margin-top: var(--spacing-3xl); border: 2px solid var(--color-secondary-yellow);">
-        <div class="flex" style="align-items: flex-start; gap: var(--spacing-lg);">
-          <div style="font-size: var(--font-size-4xl);">ℹ️</div>
-          <div>
-            <h4 style="color: var(--text-primary); margin-bottom: var(--spacing-sm);">Produto em Fase Piloto</h4>
-            <p style="color: var(--text-secondary); margin: 0;">
-              Estamos atualmente testando esta solução com parceiros selecionados. Se você é um ISP e tem interesse em participar do programa piloto com condições especiais, <a href="contactos.html" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">entre em contacto connosco</a>.
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -315,14 +261,20 @@
           <nav class="footer-links">
             <a href="#6sacademy" class="footer-link">6SAcademy</a>
             <a href="#mfo" class="footer-link">Minha Farmácia Online</a>
-            <a href="#isp" class="footer-link">Soluções ISP</a>
+            <a href="#aksanet" class="footer-link">AksaNet</a>
           </nav>
         </div>
         <div class="footer-column">
           <h3>Contacto</h3>
-          <p style="color: rgba(255,255,255,0.8);">📍 Luanda, Angola</p>
-          <p style="color: rgba(255,255,255,0.8);">📧 info@sixsilvas.ao</p>
-          <p style="color: rgba(255,255,255,0.8);">📱 +244 XXX XXX XXX</p>
+          <div class="footer-links" data-footer-contact>
+            <p class="footer-contact-line">📍 Luanda: Talatona, Rua da Ifal, Cambamba II</p>
+            <p class="footer-contact-line">📍 Malanje: Escritório Estrada Direita da Guiné, Quéssua, Ritondo da base zona 4</p>
+            <p class="footer-contact-line">🏬 Loja Malanje: Rua António José de Almeida, Bairro Azul, Cidade Centro</p>
+            <p class="footer-contact-line">💊 Farmácia Malanje: Estrada Direita da Guiné, Quéssua, Ritondo da base zona 4</p>
+            <p class="footer-contact-line">📧 <a href="mailto:info@sixsilvas.com">info@sixsilvas.com</a></p>
+            <p class="footer-contact-line">📱 <a href="tel:+244936981501">+244 936 981 501</a></p>
+            <p class="footer-contact-line">🕐 Seg-Sex: 08:00 – 17:30</p>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
@@ -331,6 +283,7 @@
     </div>
   </footer>
 
+  <script src="assets/js/site-config.js"></script>
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/main.js"></script>
 </body>

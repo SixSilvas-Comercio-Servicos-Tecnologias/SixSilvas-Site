@@ -446,6 +446,15 @@
   font-size: var(--font-size-sm);
 }
 
+.footer-contact-line {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer-contact-line a {
+  color: inherit;
+}
+
 .social-links {
   display: flex;
   gap: var(--spacing-md);
