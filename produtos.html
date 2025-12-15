@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os produtos SixSilvas: 6SAcademy, Minha Farmácia Online e Soluções ISP. Tecnologia que resolve problemas reais.">
+  <title>Produtos - SixSilvas</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>6</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">SixSilvas<span style="color: var(--color-secondary-green);">.</span></a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sobre.html" class="nav-link">Quem Somos</a></li>
+          <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+          <li><a href="contactos.html" class="nav-link">Contactos</a></li>
+          <li><button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">🌙</button></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: var(--spacing-3xl) 0;">
+    <div class="container text-center">
+      <h1 class="hero-title">Nossos Produtos</h1>
+      <p class="hero-subtitle">Soluções desenvolvidas para resolver desafios reais do mercado angolano</p>
+    </div>
+  </section>
+
+  <section class="section" id="6sacademy">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div>
+          <span class="badge badge-success" style="margin-bottom: var(--spacing-md);">Em Produção</span>
+          <div style="width: 100px; height: 100px; background: var(--gradient-primary); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-5xl); margin-bottom: var(--spacing-lg);">🎓</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">6SAcademy</h2>
+          <p style="font-size: var(--font-size-xl); color: var(--color-primary-medium); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
+            Sistema Completo de Gestão Académica
+          </p>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Plataforma integrada para gestão de escolas e universidades, desde matrículas até emissão de certificados.
+          </p>
+          <div class="tech-stack" style="margin-bottom: var(--spacing-xl);">
+            <span class="tech-tag">.NET Core</span>
+            <span class="tech-tag">Blazor WebAssembly</span>
+            <span class="tech-tag">SQL Server</span>
+            <span class="tech-tag">SignalR</span>
+          </div>
+          <a href="contactos.html" class="btn btn-primary btn-lg">Solicitar Demo</a>
+        </div>
+        <div class="card" style="padding: var(--spacing-2xl);">
+          <h3 class="card-title">Funcionalidades Principais</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li><strong>📝 Gestão de Matrículas</strong> - Inscrições online e presenciais</li>
+            <li><strong>📊 Gestão de Notas</strong> - Lançamento e consulta de notas</li>
+            <li><strong>👥 Gestão de Alunos</strong> - Perfis completos e histórico</li>
+            <li><strong>👨‍🏫 Gestão de Professores</strong> - Horários e disciplinas</li>
+            <li><strong>💰 Pagamentos</strong> - Controle financeiro integrado</li>
+            <li><strong>📅 Frequências</strong> - Registo e monitoramento</li>
+            <li><strong>📱 Portal do Aluno</strong> - App mobile para estudantes</li>
+            <li><strong>👪 Portal dos Pais</strong> - Acompanhamento em tempo real</li>
+            <li><strong>📋 Relatórios</strong> - Estatísticas e análises detalhadas</li>
+            <li><strong>🎓 Certificados</strong> - Emissão automática de documentos</li>
+            <li><strong>📚 Biblioteca</strong> - Gestão de acervo bibliográfico</li>
+            <li><strong>💬 Comunicação</strong> - Notificações e mensagens</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid grid-3" style="margin-top: var(--spacing-3xl);">
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-5xl); margin-bottom: var(--spacing-md);">⚡</div>
+          <h4 class="card-title">Rápido & Eficiente</h4>
+          <p class="card-description">Interface moderna e intuitiva que aumenta a produtividade em até 70%</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-5xl); margin-bottom: var(--spacing-md);">🔒</div>
+          <h4 class="card-title">Seguro & Confiável</h4>
+          <p class="card-description">Dados protegidos com criptografia e backups automáticos diários</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-5xl); margin-bottom: var(--spacing-md);">📈</div>
+          <h4 class="card-title">Escalável</h4>
+          <p class="card-description">Suporta desde pequenas escolas até grandes universidades</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);" id="mfo">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div class="card" style="padding: var(--spacing-2xl); order: 2;">
+          <h3 class="card-title">Funcionalidades Principais</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li><strong>🛒 E-commerce Completo</strong> - Loja online otimizada</li>
+            <li><strong>💊 Catálogo de Produtos</strong> - Gestão de medicamentos</li>
+            <li><strong>📦 Gestão de Stock</strong> - Controle em tempo real</li>
+            <li><strong>💳 Pagamentos Online</strong> - Múltiplas formas de pagamento</li>
+            <li><strong>🚚 Sistema de Delivery</strong> - Entrega rastreável</li>
+            <li><strong>📋 Prescrições Digitais</strong> - Upload e validação</li>
+            <li><strong>🔍 Busca Inteligente</strong> - Encontre produtos facilmente</li>
+            <li><strong>⭐ Avaliações</strong> - Sistema de reviews</li>
+            <li><strong>📱 App Mobile</strong> - iOS e Android</li>
+            <li><strong>👤 Perfil de Cliente</strong> - Histórico de compras</li>
+            <li><strong>🎁 Programas de Fidelidade</strong> - Recompensas</li>
+            <li><strong>📊 Dashboard Admin</strong> - Gestão completa</li>
+          </ul>
+        </div>
+        <div style="order: 1;">
+          <span class="badge badge-success" style="margin-bottom: var(--spacing-md);">Em Produção</span>
+          <div style="width: 100px; height: 100px; background: var(--gradient-secondary); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-5xl); margin-bottom: var(--spacing-lg);">💊</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Minha Farmácia Online</h2>
+          <p style="font-size: var(--font-size-xl); color: var(--color-secondary-green); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
+            Plataforma E-commerce para Farmácias
+          </p>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Solução completa para farmácias venderem online com segurança, gestão de stock e delivery integrado.
+          </p>
+          <div class="tech-stack" style="margin-bottom: var(--spacing-xl);">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Stripe</span>
+          </div>
+          <a href="contactos.html" class="btn btn-secondary btn-lg">Solicitar Demo</a>
+        </div>
+      </div>
+
+      <div class="grid grid-4" style="margin-top: var(--spacing-3xl);">
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-4xl); margin-bottom: var(--spacing-sm);">📱</div>
+          <h5 class="card-title" style="font-size: var(--font-size-base); margin-bottom: var(--spacing-xs);">Mobile First</h5>
+          <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin: 0;">Otimizado para smartphone</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-4xl); margin-bottom: var(--spacing-sm);">🔐</div>
+          <h5 class="card-title" style="font-size: var(--font-size-base); margin-bottom: var(--spacing-xs);">Pagamentos Seguros</h5>
+          <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin: 0;">PCI DSS Compliant</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-4xl); margin-bottom: var(--spacing-sm);">📍</div>
+          <h5 class="card-title" style="font-size: var(--font-size-base); margin-bottom: var(--spacing-xs);">Rastreamento</h5>
+          <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin: 0;">GPS em tempo real</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size: var(--font-size-4xl); margin-bottom: var(--spacing-sm);">⚙️</div>
+          <h5 class="card-title" style="font-size: var(--font-size-base); margin-bottom: var(--spacing-xs);">Integrações</h5>
+          <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin: 0;">APIs RESTful</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="isp">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div>
+          <span class="badge badge-warning" style="margin-bottom: var(--spacing-md);">Em Piloto</span>
+          <div style="width: 100px; height: 100px; background: var(--gradient-accent); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-5xl); margin-bottom: var(--spacing-lg);">📡</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Soluções ISP/Hotspot</h2>
+          <p style="font-size: var(--font-size-xl); color: var(--color-secondary-orange); font-weight: var(--font-weight-semibold); margin-bottom: var(--spacing-lg);">
+            Sistema de Gestão para Provedores de Internet
+          </p>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Plataforma completa para ISPs gerenciarem clientes, autenticação, faturação e monitoramento de rede.
+          </p>
+          <div class="tech-stack" style="margin-bottom: var(--spacing-xl);">
+            <span class="tech-tag">MikroTik</span>
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">RADIUS</span>
+          </div>
+          <a href="contactos.html" class="btn btn-primary btn-lg">Manifestar Interesse</a>
+        </div>
+        <div class="card" style="padding: var(--spacing-2xl);">
+          <h3 class="card-title">Funcionalidades Principais</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li><strong>👥 Gestão de Clientes</strong> - CRM completo para ISP</li>
+            <li><strong>🔐 Autenticação RADIUS</strong> - PPPoE, Hotspot, Static</li>
+            <li><strong>📊 Controle de Banda</strong> - Gestão de velocidades</li>
+            <li><strong>💰 Faturação Automática</strong> - Mensalidades e planos</li>
+            <li><strong>🌐 Portal Cativo</strong> - Login personalizado</li>
+            <li><strong>📈 Monitoramento</strong> - Traffic graphs e uptime</li>
+            <li><strong>💳 Pagamentos Online</strong> - Integração com gateways</li>
+            <li><strong>📱 Portal do Cliente</strong> - Self-service</li>
+            <li><strong>🎫 Sistema de Tickets</strong> - Suporte técnico</li>
+            <li><strong>📡 Multi-POP</strong> - Gestão de múltiplos POPs</li>
+            <li><strong>📋 Relatórios</strong> - Análises detalhadas</li>
+            <li><strong>⚠️ Alertas</strong> - Notificações automáticas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="background: var(--bg-card); border-radius: var(--border-radius-xl); padding: var(--spacing-2xl); margin-top: var(--spacing-3xl); border: 2px solid var(--color-secondary-yellow);">
+        <div class="flex" style="align-items: flex-start; gap: var(--spacing-lg);">
+          <div style="font-size: var(--font-size-4xl);">ℹ️</div>
+          <div>
+            <h4 style="color: var(--text-primary); margin-bottom: var(--spacing-sm);">Produto em Fase Piloto</h4>
+            <p style="color: var(--text-secondary); margin: 0;">
+              Estamos atualmente testando esta solução com parceiros selecionados. Se você é um ISP e tem interesse em participar do programa piloto com condições especiais, <a href="contactos.html" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">entre em contacto connosco</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--gradient-primary); text-align: center;">
+    <div class="container">
+      <h2 style="color: white; margin-bottom: var(--spacing-md);">Interessado em algum produto?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: var(--font-size-lg); margin-bottom: var(--spacing-xl);">
+        Solicite uma demonstração gratuita ou fale com nossa equipa de vendas.
+      </p>
+      <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+        <a href="contactos.html" class="btn btn-lg" style="background: white; color: var(--color-primary-dark);">Solicitar Demo</a>
+        <a href="contactos.html" class="btn btn-outline btn-lg" style="border-color: white; color: white;">Falar com Vendas</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>SixSilvas</h3>
+          <p style="color: rgba(255,255,255,0.8);">Comércio, Serviços & Tecnologias</p>
+          <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">💼</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">💬</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Produtos</h3>
+          <nav class="footer-links">
+            <a href="#6sacademy" class="footer-link">6SAcademy</a>
+            <a href="#mfo" class="footer-link">Minha Farmácia Online</a>
+            <a href="#isp" class="footer-link">Soluções ISP</a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <p style="color: rgba(255,255,255,0.8);">📍 Luanda, Angola</p>
+          <p style="color: rgba(255,255,255,0.8);">📧 info@sixsilvas.ao</p>
+          <p style="color: rgba(255,255,255,0.8);">📱 +244 XXX XXX XXX</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SixSilvas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Serviços de desenvolvimento de software, infraestrutura, DevOps e consultoria. Soluções tecnológicas completas para o seu negócio.">
+  <title>Serviços - SixSilvas</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>6</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">SixSilvas<span style="color: var(--color-secondary-green);">.</span></a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sobre.html" class="nav-link">Quem Somos</a></li>
+          <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+          <li><a href="contactos.html" class="nav-link">Contactos</a></li>
+          <li><button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">🌙</button></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: var(--spacing-3xl) 0;">
+    <div class="container text-center">
+      <h1 class="hero-title">Nossos Serviços</h1>
+      <p class="hero-subtitle">Soluções tecnológicas completas para impulsionar o seu negócio</p>
+    </div>
+  </section>
+
+  <section class="section" id="desenvolvimento">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div>
+          <div style="width: 80px; height: 80px; background: var(--gradient-primary); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl); margin-bottom: var(--spacing-lg);">💻</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Desenvolvimento de Software</h2>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Criamos aplicações personalizadas que transformam processos e geram valor real para o seu negócio.
+          </p>
+          <a href="contactos.html" class="btn btn-primary">Pedir Proposta</a>
+        </div>
+        <div class="card" style="padding: var(--spacing-2xl);">
+          <h3 class="card-title">O que oferecemos:</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li>✓ <strong>Aplicações Web Responsivas</strong> - Sites e plataformas modernas</li>
+            <li>✓ <strong>Sistemas de Gestão (ERP/CRM)</strong> - Automação completa</li>
+            <li>✓ <strong>E-commerce</strong> - Lojas online robustas e seguras</li>
+            <li>✓ <strong>APIs RESTful</strong> - Integrações eficientes</li>
+            <li>✓ <strong>Aplicações Mobile</strong> - iOS e Android nativos</li>
+            <li>✓ <strong>Progressive Web Apps</strong> - O melhor dos dois mundos</li>
+            <li>✓ <strong>Microserviços</strong> - Arquitetura escalável</li>
+          </ul>
+          <div class="tech-stack" style="margin-top: var(--spacing-lg);">
+            <span class="tech-tag">.NET Core</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Vue.js</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TypeScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);" id="infraestrutura">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div class="card" style="padding: var(--spacing-2xl); order: 2;">
+          <h3 class="card-title">O que oferecemos:</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li>✓ <strong>Desenho de Redes</strong> - LANs, WANs e VPNs</li>
+            <li>✓ <strong>Servidores</strong> - Instalação e configuração</li>
+            <li>✓ <strong>Storage Solutions</strong> - Armazenamento empresarial</li>
+            <li>✓ <strong>Segurança de Rede</strong> - Firewalls e proteção</li>
+            <li>✓ <strong>Wireless Enterprise</strong> - Wi-Fi corporativo</li>
+            <li>✓ <strong>Gestão ISP/Hotspot</strong> - Soluções completas</li>
+            <li>✓ <strong>Monitoramento 24/7</strong> - Gestão proativa</li>
+          </ul>
+          <div class="tech-stack" style="margin-top: var(--spacing-lg);">
+            <span class="tech-tag">MikroTik</span>
+            <span class="tech-tag">Cisco</span>
+            <span class="tech-tag">Ubiquiti</span>
+            <span class="tech-tag">pfSense</span>
+            <span class="tech-tag">Linux</span>
+          </div>
+        </div>
+        <div style="order: 1;">
+          <div style="width: 80px; height: 80px; background: var(--gradient-secondary); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl); margin-bottom: var(--spacing-lg);">🌐</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Infraestrutura & Redes</h2>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Infraestruturas robustas, seguras e escaláveis para suportar o crescimento do seu negócio.
+          </p>
+          <a href="contactos.html" class="btn btn-secondary">Pedir Proposta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="devops">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div>
+          <div style="width: 80px; height: 80px; background: var(--gradient-accent); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl); margin-bottom: var(--spacing-lg);">☁️</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">DevOps & Cloud</h2>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Automação, escalabilidade e eficiência para entregas contínuas e confiáveis.
+          </p>
+          <a href="contactos.html" class="btn btn-primary">Pedir Proposta</a>
+        </div>
+        <div class="card" style="padding: var(--spacing-2xl);">
+          <h3 class="card-title">O que oferecemos:</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li>✓ <strong>CI/CD Pipelines</strong> - Automação completa</li>
+            <li>✓ <strong>Cloud Migration</strong> - AWS, Azure, Google Cloud</li>
+            <li>✓ <strong>Infrastructure as Code</strong> - Terraform, Ansible</li>
+            <li>✓ <strong>Containerização</strong> - Docker e Kubernetes</li>
+            <li>✓ <strong>Monitoramento</strong> - Prometheus, Grafana, ELK</li>
+            <li>✓ <strong>Gestão de Configuração</strong> - Automação de ambientes</li>
+            <li>✓ <strong>Disaster Recovery</strong> - Backup e alta disponibilidade</li>
+          </ul>
+          <div class="tech-stack" style="margin-top: var(--spacing-lg);">
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Azure</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Kubernetes</span>
+            <span class="tech-tag">Terraform</span>
+            <span class="tech-tag">Jenkins</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);" id="consultoria">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: center;">
+        <div class="card" style="padding: var(--spacing-2xl); order: 2;">
+          <h3 class="card-title">O que oferecemos:</h3>
+          <ul style="color: var(--text-secondary); line-height: 2;">
+            <li>✓ <strong>Consultoria Estratégica TI</strong> - Planeamento e roadmap</li>
+            <li>✓ <strong>Auditorias Técnicas</strong> - Análise e recomendações</li>
+            <li>✓ <strong>Arquitetura de Soluções</strong> - Design técnico</li>
+            <li>✓ <strong>Formação Técnica</strong> - Capacitação de equipas</li>
+            <li>✓ <strong>Code Review</strong> - Análise de qualidade de código</li>
+            <li>✓ <strong>Mentoria</strong> - Acompanhamento especializado</li>
+            <li>✓ <strong>Workshops</strong> - Treinos práticos e intensivos</li>
+          </ul>
+          <div style="margin-top: var(--spacing-lg); padding: var(--spacing-md); background: var(--bg-secondary); border-radius: var(--border-radius-md); border-left: 4px solid var(--color-secondary-green);">
+            <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin: 0;">
+              <strong>Certificações:</strong> AWS, Azure, MikroTik MTCNA/MTCRE, Cisco CCNA
+            </p>
+          </div>
+        </div>
+        <div style="order: 1;">
+          <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #0B3558 0%, #2E8B57 100%); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl); margin-bottom: var(--spacing-lg);">📚</div>
+          <h2 style="font-size: var(--font-size-4xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">Consultoria & Formação</h2>
+          <p style="font-size: var(--font-size-lg); color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+            Orientação estratégica e capacitação técnica para transformar a sua equipa e processos.
+          </p>
+          <a href="contactos.html" class="btn btn-secondary">Pedir Proposta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--gradient-primary); text-align: center;">
+    <div class="container">
+      <h2 style="color: white; margin-bottom: var(--spacing-md);">Interessado nos nossos serviços?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: var(--font-size-lg); margin-bottom: var(--spacing-xl);">
+        Solicite uma proposta personalizada ou fale com um dos nossos especialistas.
+      </p>
+      <a href="contactos.html" class="btn btn-lg" style="background: white; color: var(--color-primary-dark);">Solicitar Proposta</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>SixSilvas</h3>
+          <p style="color: rgba(255,255,255,0.8);">Comércio, Serviços & Tecnologias</p>
+          <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">💼</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">💬</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <nav class="footer-links">
+            <a href="sobre.html" class="footer-link">Quem Somos</a>
+            <a href="servicos.html" class="footer-link">Serviços</a>
+            <a href="produtos.html" class="footer-link">Produtos</a>
+            <a href="portfolio.html" class="footer-link">Portfólio</a>
+            <a href="contactos.html" class="footer-link">Contactos</a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <p style="color: rgba(255,255,255,0.8);">📍 Luanda, Angola</p>
+          <p style="color: rgba(255,255,255,0.8);">📧 info@sixsilvas.ao</p>
+          <p style="color: rgba(255,255,255,0.8);">📱 +244 XXX XXX XXX</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SixSilvas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
