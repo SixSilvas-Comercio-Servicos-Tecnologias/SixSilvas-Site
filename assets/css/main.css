@@ -55,7 +55,8 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary-blue-light);
+  color: var(--color-secondary-yellow);
+  text-shadow: 0 0 10px rgba(242, 201, 76, 0.3);
 }
 
 img {
@@ -116,10 +117,11 @@ button {
   bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: var(--gradient-secondary);
+  width: 80px;
+  height: 5px;
+  background: var(--gradient-cta);
   border-radius: var(--border-radius-full);
+  box-shadow: 0 2px 8px rgba(242, 201, 76, 0.4);
 }
 
 .section-subtitle {

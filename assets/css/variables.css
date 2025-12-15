@@ -21,9 +21,19 @@
   --color-black: #000000;
 
   /* === GRADIENTES === */
-  --gradient-primary: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-medium) 100%);
-  --gradient-secondary: linear-gradient(135deg, var(--color-secondary-green) 0%, var(--color-secondary-blue-light) 100%);
-  --gradient-accent: linear-gradient(135deg, var(--color-secondary-orange) 0%, var(--color-secondary-yellow) 100%);
+  /* Hero / Seções principais - Gradiente 3 cores (Azul Profundo → Azul Médio → Azul Claro) */
+  --gradient-hero: linear-gradient(135deg, #0B3558 0%, #1F5D8F 50%, #56CCF2 100%);
+
+  /* Destaque / Produtos / Inovação (Verde → Amarelo) */
+  --gradient-innovation: linear-gradient(135deg, #2E8B57 0%, #F2C94C 100%);
+
+  /* CTAs principais (Laranja → Amarelo) */
+  --gradient-cta: linear-gradient(135deg, #F2994A 0%, #F2C94C 100%);
+
+  /* Gradientes legados (manter compatibilidade) */
+  --gradient-primary: var(--gradient-hero);
+  --gradient-secondary: var(--gradient-innovation);
+  --gradient-accent: var(--gradient-cta);
 
   /* === TEMA LIGHT (PADRÃO) === */
   --bg-primary: var(--color-white);
