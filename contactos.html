@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contacto com a SixSilvas. Estamos em Luanda, Angola. WhatsApp, Email e formulário de contacto disponíveis.">
+  <title>Contactos - SixSilvas</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>6</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">SixSilvas<span style="color: var(--color-secondary-green);">.</span></a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sobre.html" class="nav-link">Quem Somos</a></li>
+          <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+          <li><a href="contactos.html" class="nav-link">Contactos</a></li>
+          <li><button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">🌙</button></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: var(--spacing-3xl) 0;">
+    <div class="container text-center">
+      <h1 class="hero-title">Entre em Contacto</h1>
+      <p class="hero-subtitle">Estamos prontos para transformar as suas ideias em realidade</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-3xl); align-items: start;">
+
+        <!-- Informações de Contacto -->
+        <div>
+          <h2 style="font-size: var(--font-size-3xl); color: var(--text-primary); margin-bottom: var(--spacing-xl);">
+            Fale Connosco
+          </h2>
+
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                📍
+              </div>
+              <div>
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Localização</h3>
+                <p class="card-description" style="margin: 0;">
+                  Luanda, Angola<br>
+                  <small style="color: var(--text-secondary);">Disponível para reuniões presenciais ou remotas</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-secondary); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                📧
+              </div>
+              <div>
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Email</h3>
+                <p class="card-description" style="margin: 0;">
+                  <a href="mailto:info@sixsilvas.ao" style="color: var(--color-primary-medium); font-weight: var(--font-weight-semibold);">
+                    info@sixsilvas.ao
+                  </a><br>
+                  <small style="color: var(--text-secondary);">Respondemos em até 24 horas</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: var(--spacing-lg);" id="whatsapp">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: var(--gradient-accent); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                💬
+              </div>
+              <div>
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">WhatsApp</h3>
+                <p class="card-description" style="margin-bottom: var(--spacing-md);">
+                  <a href="https://wa.me/244XXXXXXXXX" target="_blank" style="color: var(--color-secondary-green); font-weight: var(--font-weight-semibold);">
+                    +244 XXX XXX XXX
+                  </a><br>
+                  <small style="color: var(--text-secondary);">Chat direto com nossa equipa</small>
+                </p>
+                <a href="https://wa.me/244XXXXXXXXX" target="_blank" class="btn btn-secondary btn-sm">
+                  Abrir WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: var(--spacing-lg);">
+            <div style="display: flex; align-items: flex-start; gap: var(--spacing-md);">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #0B3558 0%, #2E8B57 100%); border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-2xl); flex-shrink: 0;">
+                🕐
+              </div>
+              <div>
+                <h3 class="card-title" style="margin-bottom: var(--spacing-xs);">Horário de Atendimento</h3>
+                <p class="card-description" style="margin: 0;">
+                  <strong>Segunda a Sexta:</strong> 08:00 - 18:00<br>
+                  <strong>Sábado:</strong> 09:00 - 13:00<br>
+                  <small style="color: var(--text-secondary);">Horário de Luanda (WAT - UTC+1)</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background: var(--gradient-primary); border: none;">
+            <h3 style="color: white; margin-bottom: var(--spacing-md);">Redes Sociais</h3>
+            <div style="display: flex; gap: var(--spacing-md);">
+              <a href="#" class="social-link" style="background: rgba(255,255,255,0.2);">📘</a>
+              <a href="#" class="social-link" style="background: rgba(255,255,255,0.2);">💼</a>
+              <a href="#" class="social-link" style="background: rgba(255,255,255,0.2);">📷</a>
+              <a href="#" class="social-link" style="background: rgba(255,255,255,0.2);">🐦</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulário de Contacto -->
+        <div>
+          <div class="card" style="padding: var(--spacing-2xl);">
+            <h2 style="font-size: var(--font-size-3xl); color: var(--text-primary); margin-bottom: var(--spacing-md);">
+              Envie-nos uma Mensagem
+            </h2>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-xl);">
+              Preencha o formulário abaixo e entraremos em contacto em breve.
+            </p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Nome Completo *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Seu nome completo"
+                  required
+                  aria-required="true"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="seu@email.com"
+                  required
+                  aria-required="true"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Telefone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-input"
+                  placeholder="+244 XXX XXX XXX"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Assunto *</label>
+                <select id="subject" name="subject" class="form-input" required aria-required="true">
+                  <option value="">Selecione um assunto</option>
+                  <option value="orcamento">Solicitar Orçamento</option>
+                  <option value="demo">Solicitar Demonstração</option>
+                  <option value="suporte">Suporte Técnico</option>
+                  <option value="parceria">Proposta de Parceria</option>
+                  <option value="recrutamento">Trabalhe Connosco</option>
+                  <option value="outro">Outro Assunto</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Mensagem *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="Descreva a sua necessidade ou dúvida..."
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+
+              <div style="margin-bottom: var(--spacing-lg);">
+                <label style="display: flex; align-items: flex-start; gap: var(--spacing-sm); cursor: pointer;">
+                  <input type="checkbox" name="consent" required style="margin-top: 4px;">
+                  <span style="color: var(--text-secondary); font-size: var(--font-size-sm);">
+                    Concordo com o tratamento dos meus dados pessoais de acordo com a política de privacidade da SixSilvas. *
+                  </span>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                Enviar Mensagem
+              </button>
+
+              <p style="color: var(--text-secondary); font-size: var(--font-size-sm); margin-top: var(--spacing-md); text-align: center; margin-bottom: 0;">
+                * Campos obrigatórios
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 class="card-title">❓ Quanto tempo demora um projeto?</h3>
+          <p class="card-description" style="margin: 0;">
+            O prazo varia conforme a complexidade. Projetos simples podem levar 4-6 semanas, enquanto sistemas complexos podem levar 3-6 meses. Fornecemos cronograma detalhado na proposta.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">💰 Como funciona o orçamento?</h3>
+          <p class="card-description" style="margin: 0;">
+            Após análise dos requisitos, apresentamos proposta detalhada com valores e prazos. Trabalhamos com modelo de projeto fixo ou por sprint, conforme a necessidade.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🛠️ Oferecem suporte pós-implementação?</h3>
+          <p class="card-description" style="margin: 0;">
+            Sim! Todos os projetos incluem período de garantia e oferecemos planos de suporte e manutenção contínuos com SLA definido.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🌍 Atendem clientes fora de Luanda?</h3>
+          <p class="card-description" style="margin: 0;">
+            Sim, atendemos clientes em todo Angola e países lusófonos. Trabalhamos remotamente e podemos deslocar-nos quando necessário.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">📚 Oferecem formação?</h3>
+          <p class="card-description" style="margin: 0;">
+            Sim, oferecemos formação técnica em diversas tecnologias, workshops e consultoria especializada para capacitar a sua equipa.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🤝 Como começar um projeto?</h3>
+          <p class="card-description" style="margin: 0;">
+            Entre em contacto pelo formulário, WhatsApp ou email. Agendaremos uma reunião para entender as suas necessidades e apresentar a melhor solução.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" style="background: var(--gradient-primary); text-align: center;">
+    <div class="container">
+      <h2 style="color: white; margin-bottom: var(--spacing-md);">Ainda tem dúvidas?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: var(--font-size-lg); margin-bottom: var(--spacing-xl);">
+        Nossa equipa está pronta para esclarecer todas as suas questões.
+      </p>
+      <a href="https://wa.me/244XXXXXXXXX" target="_blank" class="btn btn-lg" style="background: white; color: var(--color-primary-dark);">
+        Falar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>SixSilvas</h3>
+          <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-md);">
+            Comércio, Serviços & Tecnologias
+          </p>
+          <p style="color: rgba(255,255,255,0.7); font-size: var(--font-size-sm);">
+            Transformando ideias em soluções tecnológicas que impulsionam negócios em Angola e além.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <nav class="footer-links" aria-label="Links rápidos">
+            <a href="sobre.html" class="footer-link">Quem Somos</a>
+            <a href="servicos.html" class="footer-link">Serviços</a>
+            <a href="produtos.html" class="footer-link">Produtos</a>
+            <a href="portfolio.html" class="footer-link">Portfólio</a>
+            <a href="contactos.html" class="footer-link">Contactos</a>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Serviços</h3>
+          <nav class="footer-links" aria-label="Serviços">
+            <a href="servicos.html#desenvolvimento" class="footer-link">Desenvolvimento Software</a>
+            <a href="servicos.html#infraestrutura" class="footer-link">Infraestrutura & Redes</a>
+            <a href="servicos.html#devops" class="footer-link">DevOps & Cloud</a>
+            <a href="servicos.html#consultoria" class="footer-link">Consultoria & Formação</a>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <div class="footer-links">
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📍 Luanda, Angola
+            </p>
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📧 info@sixsilvas.ao
+            </p>
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📱 +244 XXX XXX XXX
+            </p>
+            <p style="color: rgba(255,255,255,0.8);">
+              🕐 Seg-Sex: 08:00 - 18:00
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 SixSilvas - Comércio, Serviços & Tecnologias. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

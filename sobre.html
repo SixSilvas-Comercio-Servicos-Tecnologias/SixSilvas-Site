@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a SixSilvas - Uma empresa angolana de tecnologia dedicada a transformar negócios através de soluções inovadoras.">
+  <meta name="keywords" content="sobre sixsilvas, empresa tecnologia angola, missão visão valores">
+
+  <title>Quem Somos - SixSilvas</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>6</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="SixSilvas - Página Inicial">
+        SixSilvas<span style="color: var(--color-secondary-green); margin-left: 4px;">.</span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav-menu" role="menubar">
+          <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+          <li role="none"><a href="sobre.html" class="nav-link" role="menuitem">Quem Somos</a></li>
+          <li role="none"><a href="servicos.html" class="nav-link" role="menuitem">Serviços</a></li>
+          <li role="none"><a href="produtos.html" class="nav-link" role="menuitem">Produtos</a></li>
+          <li role="none"><a href="portfolio.html" class="nav-link" role="menuitem">Portfólio</a></li>
+          <li role="none"><a href="contactos.html" class="nav-link" role="menuitem">Contactos</a></li>
+          <li role="none">
+            <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema escuro/claro">
+              🌙
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Menu de navegação" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="padding: var(--spacing-3xl) 0;">
+    <div class="container">
+      <div class="hero-content fade-in text-center" style="max-width: 100%;">
+        <h1 class="hero-title">Quem Somos</h1>
+        <p class="hero-subtitle">
+          Uma empresa angolana comprometida com a excelência tecnológica
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSSA HISTÓRIA -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nossa História</h2>
+      </div>
+
+      <div style="max-width: 900px; margin: 0 auto;">
+        <div class="card" style="padding: var(--spacing-2xl);">
+          <p class="card-description" style="font-size: var(--font-size-lg); line-height: var(--line-height-relaxed);">
+            A <strong>SixSilvas</strong> nasceu da visão de transformar o panorama tecnológico em Angola, oferecendo soluções de classe mundial que combinam inovação, qualidade e expertise técnica.
+          </p>
+
+          <p class="card-description" style="font-size: var(--font-size-lg); line-height: var(--line-height-relaxed);">
+            Desde a nossa fundação, temos trabalhado incansavelmente para desenvolver produtos e serviços que não apenas atendem, mas superam as expectativas dos nossos clientes. Nossa equipa multidisciplinar reúne profissionais altamente qualificados em desenvolvimento de software, infraestrutura de TI, DevOps e consultoria estratégica.
+          </p>
+
+          <p class="card-description" style="font-size: var(--font-size-lg); line-height: var(--line-height-relaxed); margin-bottom: 0;">
+            Hoje, orgulhamo-nos de ser parceiros de confiança de empresas em diversos setores, contribuindo ativamente para a transformação digital e o crescimento sustentável dos negócios em Angola.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSÃO, VISÃO, VALORES -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="grid grid-3">
+        <article class="card text-center">
+          <div class="card-icon" style="background: var(--gradient-primary); margin: 0 auto;">
+            🎯
+          </div>
+          <h3 class="card-title">Missão</h3>
+          <p class="card-description">
+            Fornecer soluções tecnológicas inovadoras e de alta qualidade que impulsionem o crescimento e a transformação digital dos nossos clientes, com excelência, ética e compromisso.
+          </p>
+        </article>
+
+        <article class="card text-center">
+          <div class="card-icon" style="background: var(--gradient-secondary); margin: 0 auto;">
+            🔭
+          </div>
+          <h3 class="card-title">Visão</h3>
+          <p class="card-description">
+            Ser a empresa de referência em tecnologia em Angola, reconhecida pela inovação, qualidade dos serviços e pelo impacto positivo que geramos nos negócios dos nossos clientes.
+          </p>
+        </article>
+
+        <article class="card text-center">
+          <div class="card-icon" style="background: var(--gradient-accent); margin: 0 auto;">
+            ⭐
+          </div>
+          <h3 class="card-title">Valores</h3>
+          <p class="card-description">
+            Excelência técnica, Inovação contínua, Integridade, Compromisso com resultados, Desenvolvimento de pessoas, Sustentabilidade e Responsabilidade social.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS DE ATUAÇÃO -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Áreas de Atuação</h2>
+        <p class="section-subtitle">
+          Expertise diversificada para atender todas as necessidades tecnológicas
+        </p>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <h3 class="card-title" style="display: flex; align-items: center; gap: var(--spacing-md);">
+            <span style="font-size: var(--font-size-3xl);">🏢</span>
+            Transformação Digital
+          </h3>
+          <p class="card-description">
+            Ajudamos empresas a modernizarem os seus processos através da tecnologia, implementando sistemas digitais que aumentam a eficiência operacional e melhoram a experiência do cliente.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title" style="display: flex; align-items: center; gap: var(--spacing-md);">
+            <span style="font-size: var(--font-size-3xl);">🎓</span>
+            Educação & Academia
+          </h3>
+          <p class="card-description">
+            Desenvolvemos soluções específicas para instituições de ensino, com o nosso produto 6SAcademy a revolucionar a gestão académica em escolas e universidades.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title" style="display: flex; align-items: center; gap: var(--spacing-md);">
+            <span style="font-size: var(--font-size-3xl);">🏥</span>
+            Saúde & Farmácia
+          </h3>
+          <p class="card-description">
+            Criamos plataformas digitais para o setor da saúde, incluindo sistemas de gestão farmacêutica e e-commerce especializado com a nossa plataforma Minha Farmácia Online.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title" style="display: flex; align-items: center; gap: var(--spacing-md);">
+            <span style="font-size: var(--font-size-3xl);">🌐</span>
+            Telecomunicações & ISP
+          </h3>
+          <p class="card-description">
+            Fornecemos soluções completas para provedores de internet, incluindo sistemas de gestão, autenticação, faturação e infraestrutura de rede.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIDERANÇA TÉCNICA -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Liderança Técnica</h2>
+        <p class="section-subtitle">
+          Equipa altamente qualificada e apaixonada por tecnologia
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card text-center">
+          <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-primary); margin: 0 auto var(--spacing-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl);">
+            👨‍💻
+          </div>
+          <h3 class="card-title">Desenvolvimento</h3>
+          <p class="card-description">
+            Arquitetos de software e desenvolvedores full-stack com expertise em tecnologias modernas e best practices.
+          </p>
+          <div class="tech-stack" style="justify-content: center;">
+            <span class="tech-tag">.NET</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+        </article>
+
+        <article class="card text-center">
+          <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-secondary); margin: 0 auto var(--spacing-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl);">
+            🔧
+          </div>
+          <h3 class="card-title">Infraestrutura</h3>
+          <p class="card-description">
+            Engenheiros de redes e sistemas especializados em desenhar e implementar infraestruturas robustas e seguras.
+          </p>
+          <div class="tech-stack" style="justify-content: center;">
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">MikroTik</span>
+            <span class="tech-tag">Cisco</span>
+          </div>
+        </article>
+
+        <article class="card text-center">
+          <div style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-accent); margin: 0 auto var(--spacing-md); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-4xl);">
+            ☁️
+          </div>
+          <h3 class="card-title">DevOps & Cloud</h3>
+          <p class="card-description">
+            Especialistas em automação, CI/CD e cloud computing para garantir entregas rápidas e confiáveis.
+          </p>
+          <div class="tech-stack" style="justify-content: center;">
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">K8s</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORQUE ESCOLHER -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Porque Escolher a SixSilvas?</h2>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 class="card-title">✅ Expertise Comprovada</h3>
+          <p class="card-description">
+            Anos de experiência em projetos complexos e desafiadores em diversos setores da economia angolana.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🚀 Tecnologias Modernas</h3>
+          <p class="card-description">
+            Utilizamos as mais recentes e robustas tecnologias do mercado para garantir soluções escaláveis e duradouras.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">👥 Equipa Qualificada</h3>
+          <p class="card-description">
+            Profissionais certificados e em constante atualização, prontos para resolver os desafios mais complexos.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🎯 Foco em Resultados</h3>
+          <p class="card-description">
+            Comprometimento total com o sucesso do cliente, entregando soluções que geram valor real para o negócio.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🛡️ Segurança & Qualidade</h3>
+          <p class="card-description">
+            Processos rigorosos de desenvolvimento e testes para garantir produtos seguros, estáveis e de alta qualidade.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">💬 Suporte Dedicado</h3>
+          <p class="card-description">
+            Acompanhamento contínuo e suporte técnico especializado para garantir o sucesso dos nossos clientes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" style="background: var(--gradient-primary); color: var(--color-white); text-align: center;">
+    <div class="container">
+      <div class="fade-in-up">
+        <h2 style="color: var(--color-white); font-size: var(--font-size-4xl); margin-bottom: var(--spacing-md);">
+          Vamos Trabalhar Juntos?
+        </h2>
+        <p style="font-size: var(--font-size-lg); color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-2xl); max-width: 600px; margin-left: auto; margin-right: auto;">
+          Entre em contacto e descubra como podemos ajudar a transformar o seu negócio.
+        </p>
+        <a href="contactos.html" class="btn btn-lg" style="background: white; color: var(--color-primary-dark);">
+          Falar Connosco
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>SixSilvas</h3>
+          <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-md);">
+            Comércio, Serviços & Tecnologias
+          </p>
+          <p style="color: rgba(255,255,255,0.7); font-size: var(--font-size-sm);">
+            Transformando ideias em soluções tecnológicas que impulsionam negócios em Angola e além.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <nav class="footer-links" aria-label="Links rápidos">
+            <a href="sobre.html" class="footer-link">Quem Somos</a>
+            <a href="servicos.html" class="footer-link">Serviços</a>
+            <a href="produtos.html" class="footer-link">Produtos</a>
+            <a href="portfolio.html" class="footer-link">Portfólio</a>
+            <a href="contactos.html" class="footer-link">Contactos</a>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Serviços</h3>
+          <nav class="footer-links" aria-label="Serviços">
+            <a href="servicos.html#desenvolvimento" class="footer-link">Desenvolvimento Software</a>
+            <a href="servicos.html#infraestrutura" class="footer-link">Infraestrutura & Redes</a>
+            <a href="servicos.html#devops" class="footer-link">DevOps & Cloud</a>
+            <a href="servicos.html#consultoria" class="footer-link">Consultoria & Formação</a>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <div class="footer-links">
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📍 Luanda, Angola
+            </p>
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📧 info@sixsilvas.ao
+            </p>
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: var(--spacing-sm);">
+              📱 +244 XXX XXX XXX
+            </p>
+            <p style="color: rgba(255,255,255,0.8);">
+              🕐 Seg-Sex: 08:00 - 18:00
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 SixSilvas - Comércio, Serviços & Tecnologias. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
