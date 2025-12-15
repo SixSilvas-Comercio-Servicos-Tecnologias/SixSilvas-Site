@@ -95,6 +95,7 @@ class SixSilvasApp {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
+          entry.target.style.opacity = '1';
 
           // Se for um container de cards, animar cada card
           if (entry.target.classList.contains('grid')) {
@@ -110,19 +111,25 @@ class SixSilvasApp {
       });
     }, observerOptions);
 
-    // Observar elementos que devem animar
-    const animatedElements = document.querySelectorAll('.fade-in, .fade-in-up, .slide-in-left, .slide-in-right, .grid');
+    // Observar apenas elementos com classes de animação
+    const animatedElements = document.querySelectorAll('.fade-in, .fade-in-up, .slide-in-left, .slide-in-right');
     animatedElements.forEach(el => {
       el.style.opacity = '0';
       observer.observe(el);
     });
 
-    // Preparar cards para animação
-    const cards = document.querySelectorAll('.card');
-    cards.forEach(card => {
-      card.style.opacity = '0';
-      card.style.transform = 'translateY(20px)';
-      card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    // Preparar grids com cards para animação
+    const gridsWithCards = document.querySelectorAll('.grid');
+    gridsWithCards.forEach(grid => {
+      const cards = grid.querySelectorAll('.card');
+      if (cards.length > 0) {
+        cards.forEach(card => {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(20px)';
+          card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+        observer.observe(grid);
+      }
     });
   }
 

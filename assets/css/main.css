@@ -264,6 +264,10 @@ button {
   animation: slideInRight 0.8s ease-out forwards;
 }
 
+.visible {
+  opacity: 1 !important;
+}
+
 /* === RESPONSIVIDADE === */
 @media (max-width: 768px) {
   html {
@@ -288,6 +292,11 @@ button {
 
   .grid-2, .grid-3, .grid-4 {
     grid-template-columns: 1fr;
+  }
+
+  /* Sobrescrever grids com inline styles em mobile */
+  .grid[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
   }
 }
 
