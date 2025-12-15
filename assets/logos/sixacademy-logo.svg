@@ -1,0 +1,44 @@
+<svg role="img" aria-label="Logo SixAcademy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 100">
+  <title>SixAcademy - Sistema de Gestão Escolar</title>
+
+  <!-- Hexágono com gradiente -->
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F5D8F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E8B57;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hexGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#56CCF2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E8B57;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexágono externo -->
+  <polygon points="40,15 55,10 70,15 70,30 55,35 40,30"
+           fill="none" stroke="url(#hexGrad)" stroke-width="3"/>
+
+  <!-- Hexágono interno -->
+  <polygon points="45,20 55,17 65,20 65,28 55,31 45,28"
+           fill="none" stroke="url(#hexGrad2)" stroke-width="2"/>
+
+  <!-- Capelo de graduação -->
+  <g id="graduation-cap" fill="#1F5D8F">
+    <!-- Base do capelo -->
+    <polygon points="48,22 55,20 62,22 55,24" fill="url(#hexGrad)"/>
+    <!-- Topo quadrado -->
+    <rect x="50" y="18" width="10" height="2" fill="#2E8B57"/>
+    <!-- Borla -->
+    <circle cx="60" cy="19" r="1.5" fill="#F2C94C"/>
+    <line x1="60" y1="19" x2="60" y2="23" stroke="#F2C94C" stroke-width="0.8"/>
+  </g>
+
+  <!-- Texto SixAcademy -->
+  <text x="85" y="32" font-family="Poppins, sans-serif" font-size="22" font-weight="700">
+    <tspan fill="#1F5D8F">Six</tspan><tspan fill="#2E8B57">Academy</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="85" y="47" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#4F4F4F" letter-spacing="0.5">
+    SISTEMA DE GESTÃO ESCOLAR
+  </text>
+</svg>

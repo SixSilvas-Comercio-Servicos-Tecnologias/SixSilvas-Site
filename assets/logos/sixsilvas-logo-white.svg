@@ -1,0 +1,35 @@
+<svg role="img" aria-label="Logo SixSilvas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80">
+  <title>SixSilvas - Comércio, Serviços & Tecnologias</title>
+
+  <!-- Círculo colorido segmentado -->
+  <g id="circle">
+    <!-- Segmento amarelo -->
+    <path d="M 40 20 A 20 20 0 0 1 60 10" fill="none" stroke="#F2C94C" stroke-width="8" stroke-linecap="round"/>
+    <!-- Segmento verde -->
+    <path d="M 60 10 A 20 20 0 0 1 60 30" fill="none" stroke="#2E8B57" stroke-width="8" stroke-linecap="round"/>
+    <!-- Segmento laranja -->
+    <path d="M 20 20 A 20 20 0 0 0 20 40" fill="none" stroke="#F2994A" stroke-width="8" stroke-linecap="round"/>
+    <!-- Segmento azul -->
+    <path d="M 20 40 A 20 20 0 0 0 40 50" fill="none" stroke="#1F5D8F" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Letra S estilizada com pontos de conexão -->
+  <g id="s-letter" fill="#FFFFFF">
+    <circle cx="40" cy="25" r="2"/>
+    <circle cx="40" cy="30" r="2"/>
+    <circle cx="40" cy="35" r="2"/>
+    <line x1="40" y1="25" x2="45" y2="25" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="40" y1="30" x2="45" y2="30" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="40" y1="35" x2="45" y2="35" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+
+  <!-- Texto SixSilvas -->
+  <text x="75" y="40" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">
+    SixSilvas
+  </text>
+
+  <!-- Tagline -->
+  <text x="75" y="55" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#E3E8EF" letter-spacing="0.5">
+    COMÉRCIO, SERVIÇOS & TECNOLOGIAS
+  </text>
+</svg>
